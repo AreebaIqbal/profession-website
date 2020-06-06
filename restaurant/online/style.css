@@ -1,0 +1,154 @@
+div.background {
+    background: url(home.jpg) no-repeat;
+    border: 1px solid black;
+    background-size: cover;     
+  }
+  
+#color {
+  background-color: black;
+}
+
+  p {
+    
+    background-color: black;
+  }
+   .typewriter h1 {
+    margin: 24%;
+    font-weight: bold;
+    color: #F9D342;
+    text-align: center;
+  }
+
+  .navbar {
+      background-color: #F9D342 !important;
+      font-weight: bold;    
+  }
+  .nav-link:hover {
+    background-color: black;
+    color: #F9D342 !important;
+  }
+
+  .typewriter h1 {
+    width: 24ch;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+   /* margin: 0 auto;  Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    text-align: center;
+    animation: 
+      typing 3s steps(24, end),
+      blink-caret .45s  step-end infinite;    
+     }
+     
+  /* The typing effect */
+  @keyframes typing {
+    0% { width: 0ch }
+    100% { width: 24ch }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  .responsive{
+    width: 90%;
+    height: auto;
+  }
+  .burger   {
+    background: url(burger.jpg) no-repeat;
+    background-size: cover; 
+  }
+  .pizza   {
+    background: url(piz.jpg) no-repeat;
+    background-size: cover; 
+  }
+  .drinks   {
+    background: url(drink.jpg) no-repeat;
+    background-size: cover; 
+  }
+  .burger h1, .pizza h1, .drinks h1 {
+    padding: 20%;
+    padding-top: 19%
+    padding-bottom: 25%;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F9D342;
+    padding-left: 65%;
+    font-size: 45px;
+  }
+  
+  .burger li, .pizza li, .drinks li {
+    color: white;
+    font-size: 20px;
+    padding-left: -12%;
+  
+    
+  }
+  ul.list{
+    list-style-type: none;
+  }
+
+  .back {
+    background: url(https://img.freepik.com/foto-gratuito/triangolare-pezzo-di-pizza-al-forno-con-funghi-salsicce-affumicate-pomodori-e-formaggio_116441-8026.jpg?size=626&ext.jpg) no-repeat;
+    background-size: cover;
+    padding: 10% 18%;
+    
+     }
+    .container {
+     background-color: #F9D342;
+    }
+    .about{
+      background-color: black;
+    }
+    .foods{
+      width: 480px;
+      height: 400px;
+    }
+    hr{
+      border-top: 4px solid #F9D342;
+      width: 500px;
+    }
+ 
+    .btn-lg{
+      width: 50% !important;
+      background-color: black;
+      border: 1px solid black;
+    }
+    .but{
+      text-align: center;
+    }
+    .btn {
+      background-color: black;
+      color: #F9D342;
+    }
+    .btn:hover {
+      background-color: rgb(243, 223, 142);
+      color: black;
+      font-weight: bold;
+    }
+    footer{
+      background: #F9D342;
+     
+      text-align: center;
+      padding: 30px;
+    }
+  @media only screen and (max-width: 1200px){
+    .burger h1, .pizza h1, .drinks h1 {
+      font-size: 24px;  
+    }
+    .burger li, .pizza li, .drinks li {
+      font-size: 12px;
+    }
+    .typewriter h1{
+      font-size: 18px;
+    }
+    .foods{
+      width: 100%;
+    
+    }
+    .back{
+      padding: 10%;
+    }
+  }
